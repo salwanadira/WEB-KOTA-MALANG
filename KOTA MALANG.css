@@ -1,0 +1,893 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+*{
+      box-sizing: border-box;
+}
+
+[class*="col-"] {
+  padding: 15px; float: left; width: 100%;
+}
+.container{
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (min-width: 600px) {
+  /*For tablets: */
+  .col-s-1 {width: 8.33%}
+  .col-s-2 {width: 16.66%}
+  .col-s-3 {width: 25%}
+  .col-s-4 {width: 33.33%}
+  .col-s-5 {width: 41.66}
+  .col-s-6 {width: 50%}
+  .col-s-7 {width: 58.33%}
+  .col-s-8 {width: 66.66%}
+  .col-s-9 {width: 75%}
+  .col-s-10 {width: 83.33%}
+  .col-s-11 {width: 91.66%}
+  .col-s-12 {width: 100%}
+}
+
+@media only screen and (min-width: 768px) {
+  /*For desktop: */
+  .col-1 {width: 8.33%}
+  .col-2 {width: 16.66%}
+  .col-3 {width: 25%}
+  .col-4 {width: 33.33%}
+  .col-5 {width: 41.66}
+  .col-6 {width: 50%}
+  .col-7 {width: 58.33%}
+  .col-8 {width: 66.66%}
+  .col-9 {width: 75%}
+  .col-10 {width: 83.33%}
+  .col-11 {width: 91.66%}
+  .col-12 {width: 100%}
+}
+
+.container{
+  background: green;
+  height: 40px;
+}
+
+.sidebar ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: 30px;
+}
+
+.sidebar img{
+  width: 45px;
+  height: auto;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.sidebar img:hover{
+  background-color: #000;
+  border-bottom: 2px solid #000;
+  /* opacity: 0.3; */
+}
+
+.sidebar ul li{
+  float: right;
+}
+
+.sidebar ul li a{
+  float: left;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 15px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.sidebar ul li a:hover{
+  background-color: #000;
+  border-bottom: 2px solid #000;
+  opacity: 0.7;
+}
+
+.header{
+  width: 100%;
+  height: 652px;
+  background: url("balkot.jpg") no-repeat center;
+  background-size: cover;
+  float: left;
+  background-attachment: fixed;
+}
+
+.gelap{
+  width: 100%;
+  height: 652px;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #000, #000, #000, transparent);
+  opacity: 0.7;
+  background-attachment: fixed;
+}
+
+/* .background{
+  width: 100%;
+  height: 600px;
+  background: url(balkot.jpg);
+} */
+
+/* .header{
+  width: 100%;
+  height: 642px;
+  background-size: cover;
+  float: left;
+} */
+
+.balkot{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  /* height: 642px; */
+  float: left;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header h1 label{
+  font-size: 30px;
+}
+
+.header h1 span{
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.header .background h1 img{
+  width: 100px;
+  height: auto;
+}
+
+.header h1{
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  top: 175px; /* untuk mengatur jarak dari atas */
+  left: 500px; /*untuk mengatur jarak dari kiri */
+  opacity: 1;
+}
+
+.profil{
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.profil .right{
+  width: 50%;
+  height: 100%;
+  text-align: right;
+  float: left;
+}
+
+.profil .right h1{
+  text-align: right;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+  border-right: 5px solid #228B22;
+  padding-right: 30px;
+  margin-top: 95px;
+}
+
+.profil .right h1 span{
+  text-align: right;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+  margin-top: 95px;
+  color: #2E8B57;
+}
+
+.profil .right p{
+  text-align: right;
+  font-size: 20px;
+  color: grey;
+}
+
+.profil .kotmal{
+  width: 50%;
+  height: 400px;
+  float: right;
+}
+
+.profil .kotmal img{
+  width: 490px;
+  height: auto;
+  border: 8px solid #32CD32;
+  border-radius: 20px;
+  margin-top: 95px;
+  margin-left: 88px;
+}
+
+.kuliner{
+  width: 100%;
+  height: 70px;
+  float: left;
+  background: #3CB371;
+  background-size: cover;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.kuliner h1{
+  margin-top: 10px;
+  margin-left: 1%;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Lucida Sans Unicode";
+}
+
+.makanan{
+
+}
+
+.makanan .bakso img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #006400;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.makanan .bakso{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+.makanan .bakso h1{
+  font-family: "Comic Sans MS";
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.makanan .bakso p{
+  font-size: 15px;
+  color: grey;
+}
+
+.makanan .burger img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #006400;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.makanan .burger{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+.makanan .burger h1{
+  font-family: "Comic Sans MS";
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.makanan .burger p{
+  font-size: 15px;
+  color: grey;
+}
+
+.makanan .rawon img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #006400;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.makanan .rawon{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+.makanan .rawon h1{
+  font-family: "Comic Sans MS";
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.makanan .rawon p{
+  font-size: 15px;
+  color: grey;
+}
+
+.makanan .mie img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #006400;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.makanan .mie{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+.makanan .mie h1{
+  font-family: "Comic Sans MS";
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.makanan .mie p{
+  font-size: 15px;
+  color: grey;
+}
+
+.pariwisata{
+  width: 100%;
+  height: 70px;
+  float: right;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.pariwisata h1{
+  margin-top: 10px;
+  margin-left: 1%;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "Lucida Sans Unicode";
+  font-size: 40px;
+  text-align: center;
+}
+
+.pariwisata .right{
+  width: 130px;
+  height: auto;
+  position: absolute;
+  margin-top: 185px;
+  right: 485px;
+}
+
+.pariwisata .right img{
+  width: 1000px;
+  background-size: cover;
+  height: auto;
+}
+
+.pariwisataa{
+  width: 100%;
+  height: 652px;
+  background: url("wisata.jpg") no-repeat center;
+  background-size: cover;
+  float: left;
+  margin-top: 450px;
+  background-attachment: fixed;
+}
+
+.gelap1{
+  width: 100%;
+  height: 652px;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #000, #000, #000, transparent);
+  opacity: 0.7;
+  background-attachment: fixed;
+}
+
+.wisata{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  /* height: 642px; */
+  float: left;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.pariwisataa .background1 h1 img{
+  width: 100px;
+  height: auto;
+}
+
+.pariwisataa h1{
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  top: 180px; /* untuk mengatur jarak dari atas */
+  left: 440px; /*untuk mengatur jarak dari kiri */
+  opacity: 1;
+  margin-top: 2100px;
+}
+
+.pariwisata1{
+  width: 100%;
+  height: 70px;
+  float: left;
+  margin-top:10px;
+  text-align: center;
+}
+
+.pariwisata1 .left{
+  width: 100%;
+  height: 2580px;
+  margin-top: 10px;
+  float: left;
+  background: #E0FFFF;
+}
+
+.pariwisata1 h1{
+  margin-top: 10px;
+  margin-left: 1%;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.pariwisata1 .left .bunder img{
+  width: 500px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 88px;
+  border-radius: 16px;
+}
+
+.pariwisata1 .left h1{
+  margin-top: 8px;
+  margin-left: 90px;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 40px;
+  text-align: center;
+}
+
+.pariwisata1 .left .deskripsi {
+  font-size: 20px;
+  color: grey;
+  margin-top: 8px;
+}
+
+.budaya{
+  width: 100%;
+  height: 70px;
+  float: left;
+  background: #3CB371;
+  background-size: cover;
+  margin-top: 2580px;
+  text-align: center;
+}
+
+.budaya h1{
+  margin-top: 10px;
+  margin-left: 95px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Lucida Sans Unicode";
+}
+
+.budaya1{
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.budaya1 .festival{
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  float: left;
+}
+
+.budaya1 .festival h1{
+  text-align: left;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+  border-left: 5px solid #20B2AA;
+  padding-left: 28px;
+  margin-top: 95px;
+  margin-left: 110px;
+}
+
+.budaya1 .festival p{
+  text-align: left;
+  font-size: 19px;
+  color: #C0C0C0;
+  margin-left: 110px;
+}
+
+.budaya1 .mtd{
+  width: 50%;
+  height: 400px;
+  float: right;
+}
+
+.budaya1 .mtd img{
+  width: 500px;
+  height: auto;
+  border: 8px solid #7FFFD4;
+  border-radius: 15px;
+  margin-top: 95px;
+  margin-left: 1px;
+}
+
+.budaya2{
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.budaya2 .lampion{
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  float: left;
+}
+
+.budaya2 .lampion h1{
+  text-align: left;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+  border-left: 5px solid #20B2AA;
+  padding-left: 28px;
+  margin-top: 95px;
+  margin-left: 110px;
+}
+
+.budaya2 .lampion p{
+  text-align: left;
+  font-size: 19px;
+  color: #C0C0C0;
+  margin-left: 110px;
+}
+
+.budaya2 .lampion1{
+  width: 50%;
+  height: 400px;
+  float: right;
+}
+
+.budaya2 .lampion1 img{
+  width: 500px;
+  height: auto;
+  border: 8px solid #7FFFD4;
+  border-radius: 15px;
+  margin-top: 95px;
+  margin-left: 1px;
+}
+
+
+.budaya3{
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.budaya3 .bunga{
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  float: left;
+}
+
+.budaya3 .bunga h1{
+  text-align: left;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+  border-left: 5px solid #20B2AA;
+  padding-left: 28px;
+  margin-top: 95px;
+  margin-left: 110px;
+}
+
+.budaya3 .bunga p{
+  text-align: left;
+  font-size: 19px;
+  color: #C0C0C0;
+  margin-left: 110px;
+}
+
+.budaya3 .bunga1{
+  width: 50%;
+  height: 400px;
+  float: right;
+}
+
+.budaya3 .bunga1 img{
+  width: 500px;
+  height: auto;
+  border: 8px solid #7FFFD4;
+  border-radius: 15px;
+  margin-top: 95px;
+  margin-left: 1px;
+}
+
+.budaya4{
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.budaya4 .bahasa{
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  float: left;
+}
+
+.budaya4 .bahasa h1{
+  text-align: left;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+  border-left: 5px solid #20B2AA;
+  padding-left: 28px;
+  margin-top: 95px;
+  margin-left: 110px;
+}
+
+.budaya4 .bahasa p{
+  text-align: left;
+  font-size: 19px;
+  color: #C0C0C0;
+  margin-left: 110px;
+}
+
+.budaya4 .bahasa1{
+  width: 50%;
+  height: 400px;
+  float: right;
+}
+
+.budaya4 .bahasa1 img{
+  width: 500px;
+  height: auto;
+  border: 8px solid #7FFFD4;
+  border-radius: 15px;
+  margin-top: 95px;
+  margin-left: 1px;
+}
+
+.budaya5{
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.budaya5 .tari{
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  float: left;
+}
+
+.budaya5 .tari h1{
+  text-align: left;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+  border-left: 5px solid #20B2AA;
+  padding-left: 28px;
+  margin-top: 95px;
+  margin-left: 110px;
+}
+
+.budaya5 .tari p{
+  text-align: left;
+  font-size: 19px;
+  color: #C0C0C0;
+  margin-left: 110px;
+}
+
+.budaya5 .tari1{
+  width: 50%;
+  height: 400px;
+  float: right;
+}
+
+.budaya5 .tari1 img{
+  width: 500px;
+  height: auto;
+  border: 8px solid #7FFFD4;
+  border-radius: 15px;
+  margin-top: 95px;
+  margin-left: 1px;
+}
+
+
+.penghargaan{
+  width: 100%;
+  height: 500px;
+  float: left;
+  background: url("IAA.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: 20px;
+  position: relative;
+  background-attachment: fixed;
+  margin-top: 170px;
+}
+
+.gelap2{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  float: left;
+  background: linear-gradient(to right, #000, #000, #000, transparent);
+  opacity: 0.75;
+  background-attachment: fixed;
+}
+
+.penghargaan .left2{
+  width: 50%;
+  height: auto;
+  margin-top: 200px;
+  position: absolute;
+  text-align: right;
+  color: #fff;
+  border-right: 5px solid #3CB371;
+  padding-right: 20px;
+  float: left;
+}
+
+.penghargaan .left2 h1{
+  margin: 2px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.penghargaan .left2 h2{
+  margin: 2px;
+  font-size: 28px;
+  font-family: sans-serif;
+  color: grey;
+  margin-top: 0px;
+  margin-left: 100px;
+}
+
+.penghargaan .left2 h3{
+  margin: 2px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 10;
+  color: #E0FFFF;
+}
+
+.penghargaan .right{
+  width: 130px;
+  height: auto;
+  float: right;
+  position: absolute;
+  margin-top: 220px;
+  right: 485px;
+}
+.penghargaan .right img{
+  width: 132px;
+  height: auto;
+}
+
+.program{
+  width: 100%;
+  height: 400px;
+  float:left;
+  margin-top: 188px;
+  text-align: center;
+}
+
+.program .studi{
+  width: 98%;
+  height: 350px;
+  margin: 15px;
+  float: center;
+}
+
+.program .studi .pstudi{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #3CB371;
+  margin: 0 auto;
+  display: flex;
+}
+
+.pstudi span{
+  margin : auto;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.program .studi .prstudi h1{
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 40;
+  color: grey;
+}
+
+.program .studi .prstudi h1 span{
+  text-align: right;
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+  margin-top: 95px;
+  color: #66CDAA  ;
+}
+
+div.cr{
+  width: 100%;
+  height: auto;
+  float: left;
+  background: #5F9EA0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 75px;
+}
+
+div.cr .copy{
+  color: #fff;
+  text-align:left;
+  margin-left: 20px;
+}
+
+div.cr .make{
+  color: #fff;
+  text-align: right;
+  margin-right: 20px;
+}
